@@ -62,7 +62,6 @@ function getChannelDetails(Id) {
         url: 'http://ams-api.astro.com.my/ams/v3/getChannels?channelId=' + Id,
         type: 'GET',
         success: function (response) {
-            console.log(response.channel[0].channelTitle);
             $('#channelTitle').text(response.channel[0].channelTitle);
             $('#channelDescription').text(response.channel[0].channelDescription);
         }
