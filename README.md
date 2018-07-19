@@ -19,5 +19,5 @@ jquery.dataTables.js
 ## User Guid
 
 * Home page list down all Astro channel list with pagination.
-* User can get channel details by clicking "Channel Id" or "Channel Title". It will display in the popup.
-* The user can mark as favourite by clicking last column star mark.
+* User can get channel details by clicking on "Channel Id" or "Channel Title". It will display in the popup.
+* The user can mark as favourite by clicking on last column star mark.
