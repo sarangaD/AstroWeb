@@ -1,0 +1,42 @@
+﻿
+<script src="~/Scripts/customscript.js"></script>
+<script>
+
+</script>
+<body>
+    <div class="row">
+
+        <div id="ChannelTable" style="padding:20px;">
+            <table id="dtChannel" class="table table-striped table-bordered nowrap" style="width:100%">
+                <thead>
+                    <tr>
+                        <th class="Id">Channel Id</th>
+                        <th>Channel Title</th>
+                        <th>Favourite</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="orderModal" role="dialog">
+        <div class="modal-dialog modallocation">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+                    <h3 class="modal-title">Channel Description</h3>
+
+                </div>
+                <div class="modal-body">
+                    <b>Channel Title :</b> <label id="channelTitle" class="lable"></label><br /><br />
+                    <b>Channel Description :</b><label id="channelDescription" class="lable"></label>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
